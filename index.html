@@ -2,21 +2,22 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
 		/>
 		<link rel="stylesheet" href="style.css" />
-		<script
+		<!-- <script
 			src="https://kit.fontawesome.com/20634282f8.js"
 			crossorigin="anonymous"
-		></script>
+		></script> -->
 		<title>Text Editor</title>
 	</head>
 
 	<body>
-		<h1>Free Text Editor</h1>
+		<h1 class="title">Free Text Editor</h1>
 		<div class="container">
 			<div class="options">
 				<button id="bold" class="option-button format">
@@ -29,10 +30,10 @@
 					<i class="fa-solid fa-subscript"></i>
 				</button>
 
-				<button id="insertOrderedlist" class="option-button">
-					<i class="fa-solid fa-list-ol"></i>
+				<button id="insertOrderedList" class="option-button">
+					<div class="fa-solid fa-list-ol"></div>
 				</button>
-				<button id="insertUnorderedlist" class="option-button">
+				<button id="insertUnorderedList" class="option-button">
 					<i class="fa-solid fa-list"></i>
 				</button>
 
@@ -47,7 +48,7 @@
 				<button id="createLink" class="adv-option-button">
 					<i class="fa-solid fa-link"></i>
 				</button>
-				<button id="unLink" class="option-button">
+				<button id="unlink" class="option-button">
 					<i class="fa-solid fa-unlink"></i>
 				</button>
 
